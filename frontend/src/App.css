@@ -1,0 +1,179 @@
+.nav-ul {
+  background-color: aqua;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.nav-ul .bar {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+
+.foot {
+  background-color: aqua;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.nav {
+  text-decoration: none;
+  color: black;
+}
+
+.nav :hover {
+  color: red;
+}
+
+.logo_style {
+  width: 50px;
+  float: left;
+  margin: 10px;
+
+}
+
+.signup-box {
+  margin-left: 30%;
+}
+
+.login-box {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.inputBox {
+  display: block;
+  margin: 16px;
+  padding: 6px;
+  width: 283px;
+  border-radius: 6px;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.signup-button {
+  margin: 25px;
+  padding: 7px;
+  width: 102px;
+  cursor: pointer;
+  background-color: tan;
+  border-radius: 5px;
+}
+
+.login-button {
+  margin: 25px;
+  padding: 7px;
+  width: 102px;
+  cursor: pointer;
+  background-color: tan;
+  border-radius: 5px;
+}
+
+.add-product-style {
+  margin-left: 30%;
+  margin-top: 6%;
+}
+
+
+.span-add-box {
+  font-size: 16px;
+  color: red;
+  margin-top: -20px;
+  margin-left: 17px;
+  display: block;
+}
+
+.product-list {
+  text-align: center;
+}
+
+.product-list .product-l1 {
+  margin: -2px;
+
+}
+
+.product-l1 {
+  font-size: 18px;
+}
+
+.product-l1 .list1 {
+  border: 2px solid skyblue;
+  padding: 5px;
+  width: 150px;
+  list-style: none;
+  display: inline-block;
+  width: 135px;
+}
+
+.inputbox {
+  padding: 12px;
+  margin: 35px;
+  width: 44%;
+  border: 5px solid skyblue;
+  border-radius: 14px;
+
+}
+
+.main-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-box {
+  border: 5px solid black;
+  width: 40%;
+  height: 420px;
+  background-color: cyan;
+  margin: 92px;
+  border-radius: 12px;
+
+}
+
+.profile-text {
+  text-align: center;
+}
+
+.profile-content {
+  padding: 10px;
+}
+
+.profile-box2 {
+  border-radius: 12px;
+  width: 40%;
+  margin: 92px;
+  background-color: cyan;
+  border: 5px solid black;
+  height: 420px;
+}
+
+.profile-heading {
+  text-align: center;
+}
+
+.profile-content2 {
+  padding: 10px;
+}
+
+.error-box {
+  text-align: center;
+  color: red;
+  background-color: aliceblue;
+  text-align: center;
+  margin: 150px;
+  padding: 65px;
+}
+
+.link-page {
+    text-decoration: none;
+    font-size: 26px;
+    font-variant: ordinal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
